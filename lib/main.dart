@@ -39,14 +39,10 @@ extension Normalize on num {
       normalizedRangeMin;
 }
 
-class MyHomePage extends StatefulWidget {
+
+class MyHomePage extends HookWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     final opacity = useAnimationController(
@@ -68,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
     /// useEffect will return controller only one when value changes
     useEffect(() {
       controller.addListener(
-        () {
+            () {
           //TODO: check docs
           final newOpacity = max(imageHeight - controller.offset, 0.0);
           final normalized = newOpacity.normalized(0.0, imageHeight).toDouble();
@@ -99,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           Expanded(
             child: ListView.builder(
-              controller: controller,
+                controller: controller,
                 itemCount: 100,
                 itemBuilder: (context, index) {
                   return ListTile(
