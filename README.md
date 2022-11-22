@@ -4,3 +4,5 @@
 2. project_2 => textfield and reading the value (useEffect() && useTextEditingController())
 3. project_3 => useFuture() and useMemorized() in flutter hooks
 4. project_4 => useListenable() and useMemorized() in flutter hooks
+5. project_5 => useAnimationController, useScrollController, SizeTransition, FadeTransition
+
