@@ -5,4 +5,5 @@
 3. project_3 => useFuture() and useMemorized() in flutter hooks
 4. project_4 => useListenable() and useMemorized() in flutter hooks
 5. project_5 => useAnimationController, useScrollController, SizeTransition, FadeTransition
+6. project_6 => useStreamController, StreamBuilder, RotationTransition
 
