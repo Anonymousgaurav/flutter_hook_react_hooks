@@ -7,4 +7,5 @@
 5. project_5 => useAnimationController, useScrollController, SizeTransition, FadeTransition
 6. project_6 => useStreamController, StreamBuilder, RotationTransition
 7. project_7 => useReducer
+8. project_8 => useAppLifecycleState
 
